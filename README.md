@@ -7,3 +7,10 @@ FreeCodeCamp MERN Stack Tutorial with Deployment – Beginner's Course
      a. express -> web framework
      b. mongoose -> intract with database (mongoDb)
      c. dotenv -> environment variables
+4. To use modeule directly -> add "type": "module" in package.json
+5. Restart the server the if any changes made on the file -> "npm i nodemon -D"
+     add
+             "scripts": {
+                  "dev": "nodemon Backend/server.js"
+              },
+     in package.json
